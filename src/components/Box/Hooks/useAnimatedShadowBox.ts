@@ -4,6 +4,7 @@ import {
   useDerivedValue,
   useSharedValue,
   withSpring,
+  runOnUI,
 } from 'react-native-reanimated'
 
 import { SHADOW_BOX_WIDTH } from '../constants'
@@ -35,13 +36,15 @@ const useAnimatedShadowBox = (size = SHADOW_BOX_WIDTH) => {
   })
 
   const onPressIn = () => {
-    'worklet'
-    animatedValue.value = 1
+    runOnUI(() => {
+      animatedValue.value = 1
+    })()
   }
 
   const onPressOut = () => {
-    'worklet'
-    animatedValue.value = 0
+    runOnUI(() => {
+      animatedValue.value = 0
+    })()
   }
 
   return {

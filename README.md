@@ -45,12 +45,14 @@ rn_ui_kit/
 ### Installation
 
 1. Clone the repository:
+
 ```bash
-git clone https://github.com/your-username/rn-ui-kit.git
+git clone https://github.com/duyluu/rn-ui-kit.git
 cd rn-ui-kit
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 # or
@@ -58,6 +60,7 @@ yarn install
 ```
 
 3. Start the development server:
+
 ```bash
 npm run dev
 # or
@@ -67,6 +70,7 @@ yarn dev
 ## 📦 Building the Package
 
 1. Build the package:
+
 ```bash
 npm run build
 # or
@@ -74,6 +78,7 @@ yarn build
 ```
 
 2. Test the build locally:
+
 ```bash
 npm pack
 ```
@@ -83,11 +88,13 @@ npm pack
 1. Update version in package.json
 2. Build the package
 3. Login to npm:
+
 ```bash
 npm login
 ```
 
 4. Publish:
+
 ```bash
 npm publish
 ```
@@ -95,15 +102,17 @@ npm publish
 ## 📚 Usage in Your Project
 
 1. Install the package:
+
 ```bash
-npm install @your-username/rn-ui-kit
+npm install @duyluu/rn-ui-kit
 # or
-yarn add @your-username/rn-ui-kit
+yarn add @duyluu/rn-ui-kit
 ```
 
 2. Import and use components:
+
 ```typescript
-import { Button, Card } from '@your-username/rn-ui-kit';
+import { Button, Card } from '@duyluu/rn-ui-kit';
 
 // Use components
 <Button title="Click me" onPress={() => {}} />
@@ -117,7 +126,7 @@ import { Button, Card } from '@your-username/rn-ui-kit';
 The UI Kit supports theme customization. You can override the default theme:
 
 ```typescript
-import { ThemeProvider } from '@your-username/rn-ui-kit';
+import { ThemeProvider } from '@duyluu/rn-ui-kit';
 
 const customTheme = {
   colors: {
@@ -135,6 +144,7 @@ const customTheme = {
 ## 📝 Development Roadmap
 
 ### Phase 1: Core Setup
+
 - [x] Initialize project structure
 - [ ] Set up TypeScript configuration
 - [ ] Configure build system
@@ -142,6 +152,7 @@ const customTheme = {
 - [ ] Create basic documentation
 
 ### Phase 2: Basic Components
+
 - [ ] Button component
 - [ ] Card component
 - [ ] Input component
@@ -149,6 +160,7 @@ const customTheme = {
 - [ ] Layout components
 
 ### Phase 3: Advanced Features
+
 - [ ] Theme system
 - [ ] Dark/Light mode support
 - [ ] Form components
@@ -156,6 +168,7 @@ const customTheme = {
 - [ ] Animation utilities
 
 ### Phase 4: Documentation & Examples
+
 - [ ] Comprehensive documentation
 - [ ] Example app
 - [ ] Usage examples
@@ -163,6 +176,7 @@ const customTheme = {
 - [ ] Installation guide
 
 ### Phase 5: Publishing & Maintenance
+
 - [ ] npm package setup
 - [ ] CI/CD pipeline
 - [ ] Version management
@@ -180,6 +194,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 If you have any questions or need help, please:
+
 - Open an issue
 - Check the documentation
 - Contact the maintainers
@@ -188,4 +203,4 @@ If you have any questions or need help, please:
 
 - React Native team
 - All contributors
-- The open-source community 
+- The open-source community

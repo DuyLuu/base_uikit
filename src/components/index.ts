@@ -1,4 +1,2 @@
-// This file will export all components
-// Components will be added here as they are created 
-
-export const components = {} 
+export { default as Card } from './Card'
+export { default as Box } from './Box'

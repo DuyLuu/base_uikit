@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import * as React from 'react'
 import { StyleSheet } from 'react-native'
 import { omit, pick } from 'lodash'
 
@@ -31,7 +31,7 @@ export const useBoxProps = ({
   flex1,
   spacing,
 }: BoxProps) => {
-  return useMemo(() => {
+  return React.useMemo(() => {
     return [
       styles.default,
       margin && Theme.spacing[margin] && { margin: Theme.spacing[margin] },
